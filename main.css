@@ -1,0 +1,52 @@
+/* .moon {
+    background: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.moon::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+
+} */
+
+/* body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+} */
+
+.div{
+    background-color: black;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    height: 620px;
+    padding-top: 20px;
+}
+
+.container{
+    width: 98%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.cursor{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    pointer-events: none;
+    /* transform: translate(50%, 50%); */
+}
